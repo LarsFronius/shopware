@@ -69,7 +69,7 @@ class ThemeInitializeCommand extends ShopwareCommand
         $templateId = $this->getResponsiveTemplateId();
         $this->updateDefaultTemplateId($templateId);
 
-        $output->writeln("Themes initializes");
+        $output->writeln("Themes initialized");
     }
 
     /**
